@@ -1,0 +1,98 @@
+body {
+    background-color: lightgray;
+    line-height: 1.5;
+    letter-spacing: .16px;
+}
+
+.jumbotron {
+    background-color: black;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+img {
+    max-width: 250px;
+    max-height: 350px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.bleep {
+    color: lightgray;
+    font-size: 8px;
+    padding-top: 5px;
+}
+
+button, .btn-default, .btn-info, #topicButton {
+    text-align: center;
+    padding: -10px;
+    margin: 4px;
+    padding-top: -10px;
+
+}
+
+button:focus, button:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttonContainer {
+    margin: 20px 20px 10px 20px;
+    padding: -15px 20px 20px 20px;
+}
+
+#gifAdd {
+    margin: 20px;
+    padding: 12px;
+}
+
+#buttonAdd {
+    margin: 10px;
+    padding: 12px;
+}
+
+.gifBox {
+    border-style: double dashed;
+    border-width: 1.5px;
+    border-color: black;
+    margin: 0px 30px 0px 20px;
+    padding: 25px;
+}
+
+.addBox {
+    border-style: dashed double;
+    border-width: 1.5px;
+    border-color: black;
+    padding: 25px 30px 25px 25px;
+}
+
+.tvAdd {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rate {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#buttonsList {
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+
+#gifStash {
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    .addBox {
+        width: 690px;
+        margin-right: 0 auto;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+}
